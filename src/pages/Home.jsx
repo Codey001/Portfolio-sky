@@ -14,13 +14,16 @@ import { soundoff, soundon } from '../assets/icons'
 
 const Home = () => {    
   const audioRef = useRef(new Audio(sakura));
-  audioRef.current.volume = 0.4;
+  audioRef.current.volume = 0.1;
   audioRef.current.loop = true;
 
   const [isRotating, setIsRotating] = useState(false);
   const [currentStage, setCurrentStage] = useState(1);
 
   const [isPlayingMusic, setIsPlayingMusic] = useState(false);
+
+
+
   useEffect(() => {
     if(isPlayingMusic){
       audioRef.current.play();
@@ -31,6 +34,7 @@ const Home = () => {
     }
 
   }, [isPlayingMusic])
+
   
   const adjustIslandForScreenSize = () => {
     let screenScale = null;
@@ -107,6 +111,7 @@ const Home = () => {
           src={!isPlayingMusic ? soundoff :soundon}
           alt='sound'
           className='w-10 h-10 cursor-pointer object-contain'
+          onLoad={() => setIsPlayingMusic(isPlayingMusic)}
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
         />
       </div>

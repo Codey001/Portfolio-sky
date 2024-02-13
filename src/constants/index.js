@@ -1,228 +1,256 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { flywheel, nielit, iHub } from "../assets/images";
 import {
-    car,
-    contact,
-    css,
-    estate,
-    express,
-    git,
-    github,
-    html,
-    javascript,
-    linkedin,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
-    nodejs,
-    pricewise,
-    react,
-    redux,
-    sass,
-    snapgram,
-    summiz,
-    tailwindcss,
-    threads,
-    typescript
+  linkedin,
+  car,
+  estate,
+  pricewise,
+  snapgram,
+  summiz,
+  threads,
+  contact,
+  html,
+  css,
+  bootstarp,
+  javascript,
+  nodejs,
+  express,
+  react,
+  sql,
+  postgreSql,
+  mongodb,
+  git,
+  github,
+  c,
+  cpp,
+  python,
+  pyqt,
+  figma,
+  numpy,
+  pandas,
+  arduino,
+  linux,
+  drum,
+  lfr,
+  build,
+  micromouse,
+  attandance,
 } from "../assets/icons";
 
 export const skills = [
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: bootstarp,
+    name: "Bootstrap",
+    type: "Frontend",
+  },
+  {
+    imageUrl: c,
+    name: "C",
+    type: "Language",
+  },
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: express,
+    name: "Express",
+    type: "Backend",
+  },
+  {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    imageUrl: sql,
+    name: "SQL",
+    type: "Backend",
+  },
+  {
+    imageUrl: postgreSql,
+    name: "PostgreSQL",
+    type: "Backend",
+  },
+  {
+    imageUrl: mongodb,
+    name: "Mongodb",
+    type: "Backend",
+  },
+  {
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
+  {
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+  },
+  {
+    imageUrl: pyqt,
+    name: "Pyqt",
+    type: "GUI",
+  },
+
+  {
+    imageUrl: cpp,
+    name: "Cpp",
+    type: "Language",
+  },
+  {
+    imageUrl: python,
+    name: "Python",
+    type: "Python",
+  },
+
+  {
+    imageUrl: figma,
+    name: "Figma",
+    type: "Frontend",
+  },
+  {
+    imageUrl: numpy,
+    name: "Numpy",
+    type: "AI",
+  },
+  {
+    imageUrl: pandas,
+    name: "Pandas",
+    type: "AI",
+  },
+  {
+    imageUrl: linux,
+    name: "Linux",
+    type: "OS",
+  },
+  {
+    imageUrl: arduino,
+    name: "Arduino",
+    type: "IOT",
+  },
 ];
 
 export const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+  {
+    title: "Software Developer Intern",
+    company_name: "Flywheel Aerospace",
+    icon: flywheel,
+    iconBg: "#accbe1",
+    date: "Aug 2023 - Sep 2023",
+    points: [
+      "Central role in developing and maintaining of a real-time data acquisition system for 9 satellite sensors.",
+      "Managed UART data reception, designed PyQt5 GUI, and ensured data integrity.",
+      "Executed robust data storage strategies, facilitating the capture of 16 distinct data types into Excel files.",
+    ],
+  },
+  {
+    title: "Training in Artificial Intelligence and Machine Learning",
+    company_name:
+      "National Institute of Electronics & Information Technology, Delhi",
+    icon: nielit,
+    iconBg: "#b7e4c7",
+    date: "Jun 2022 - Aug 2023",
+    points: [
+      "Completed training in AI and ML in lieu of completion of 4th semester.",
+      "Learnt multiple algorithms incuding  Linear Regression, Naive Bayes, PCA, KNN, CNN, ANN, Clustering, etc",
+      "Implmented multiple projects such as emotion identifier using NLTK, Stamp Identification, Breast Cancer Detection and House Price Prediction.",
+    ],
+  },
+  {
+    title: "Research Fellow",
+    company_name: "IIT Roorkee",
+    icon: iHub,
+    iconBg: "#a2d2ff",
+    date: "May 2023 - Sept 2023",
+    points: [
+      "Significantly contributed to developing a specialized earthquake rescue robot for human detection, actively involved in sensor integration, robust communication system implementation, and complex data analysis",
+      "Seamlessly integrated multiple sensors, wrote their operation codes and established real time video output on network.",
+    ],
+  },
 ];
 
 export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
-    {
-        name: 'GitHub',
-        iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
-    },
-    {
-        name: 'LinkedIn',
-        iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
-    }
+  {
+    name: "Contact",
+    iconUrl: contact,
+    link: "/contact",
+  },
+  {
+    name: "GitHub",
+    iconUrl: github,
+    link: "https://github.com/YourGitHubUsername",
+  },
+  {
+    name: "LinkedIn",
+    iconUrl: linkedin,
+    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+  },
 ];
 
 export const projects = [
-    {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+  {
+    iconUrl: attandance,
+    theme: "btn-back-red",
+    name: "Smart Attendance System",
+    description:
+      "An IoT-based attendance system using RFID cards for marking, reducing time by 80% and eliminating paper, with RC522 RFID Card Reader and ESP8266 for wireless data transmission, featuring an LCD display for output.",
+    link: "https://github.com/Codey001/Attandance-system-v1",
+  },
+  {
+    iconUrl: micromouse,
+    theme: "btn-back-green",
+    name: "Micromouse - Maize Solver",
+    description:
+      "A miniature robot equipped with 5 IR sensors, programmed with the Flood fill algorithm, and controlled by an Arduino Nano, designed to efficiently navigate and solve 3D maize mazes in minimal time.",
+    link: "https://github.com/Codey001/My-Projects/tree/main/Micromouse",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "Epilepsy Detection Model",
+    description:
+      "Crafted a ML model to detect initial symptoms of epilespy. Build as team project for IIT Mandi hackathon.",
+    link: "https://github.com/Codey001/My-Projects/tree/main/ML%20model",
+  },
+
+  {
+    iconUrl: drum,
+    theme: "btn-back-pink",
+    name: "Drum-Kit",
+    description:
+      "A JavaScript based website created to emulate the the actual drumkit. Created as fun project to dive deeper into website building.",
+    link: "https://codey001.github.io/Drum-Kit/",
+  },
+  {
+    iconUrl: build,
+    theme: "btn-back-blue",
+    name: "Tech Build",
+    description:
+      "Website to build your own PC. Created using HTML, CSS and Bootstrap as a part of initial learning.",
+    link: "https://codey001.github.io/techBuild/",
+  },
+  {
+    iconUrl: lfr,
+    theme: "btn-back-orange",
+    name: "Line Follower Robot",
+    description:
+      "Built a line following robot for IIT Bombay techfest zonals, capable of following line and correction its path with PID.",
+    link: "https://github.com/Codey001/My-Projects/tree/main/Line%20Following%20Robot%20(LFR)",
+  },
 ];

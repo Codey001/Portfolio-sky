@@ -8,14 +8,17 @@ const About = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'> 
-        Hello, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Sunny</span>
+        Hello 👋🏼 <br></br>
+        I'm <span className='blue-gradient_text font-semibold drop-shadow'>Sunny Kumar Yadav</span>
       </h1>
 
       {/* Skills */}
 
       <div  className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in India, specializing in techincal education through hands-on learning and building applications.
+          A Pre-final year B.Tech student pursuing Computer Science and Engineering. <br />
+          Actively seeking internship and full-time Software Engineer opportunities.Passionate about Web Development, IoT and AI/ML, with a diverse skill set and a drive for hands-on experience.
+
         </p>
       </div>
 
@@ -46,7 +49,7 @@ const About = () => {
         </h3>
         <div  className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          I've worked with all sorts of companies, leveling up my skills and teaming up with smart people. Here's the rundown :
+          I've worked in multiple organizations, leveling up my skills and teaming up with smart people. Here's the rundown :
         </p>
       </div>
 

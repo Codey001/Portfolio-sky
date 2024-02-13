@@ -1,15 +1,14 @@
 import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
 import logo from './logo.svg'
+
+import flywheel from './flywheel.jpeg'
+import nielit from './nielit.jpeg'
+import iHub from './iHub.jpeg'
 
 export {
     hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
+    logo,
+    flywheel,
+    nielit,
+    iHub
 }
