@@ -154,9 +154,9 @@ export const experiences = [
     iconBg: "#accbe1",
     date: "Aug 2023 - Dec 2023",
     points: [
-"Central role in developing and maintaining of a real-time data acquisition system for 9 satellite sensors."
-"Managed UART data reception, designed PyQt5 GUI, and enabled the capture of 16 distinct data types into Excel files."
-"Designed software to control the movement of a robotic arm in 6 degrees of freedom, utilizing I2C communication."
+"Central role in developing and maintaining of a real-time data acquisition system for 9 satellite sensors.",
+"Managed UART data reception, designed PyQt5 GUI, and enabled the capture of 16 distinct data types into Excel files.",
+"Designed software to control the movement of a robotic arm in 6 degrees of freedom, utilizing I2C communication.",
     ],
   },
   {
