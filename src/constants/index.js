@@ -34,6 +34,9 @@ import {
   build,
   micromouse,
   attandance,
+  chat,
+  game,
+  to_do,
 } from "../assets/icons";
 
 export const skills = [
@@ -204,6 +207,32 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: chat,
+    theme: "btn-back-green",
+    name: "Chat Application",
+    description:
+      "A full stack chat application with login and sign up functionality. Implemented realtime message delivery using socket.io, along with online status functionality.",
+    link: "https://chat-app-tir5.onrender.com/",
+  },
+  {
+    iconUrl: to_do,
+    theme: "btn-back-blue",
+    name: "To Do App",
+    description:
+      "Build good old to do app with React and Mongo DB integration. Implemented create update and delete functionality.",
+    link: "https://tic-tac-toe-164.vercel.app/",
+  },
+
+  {
+    iconUrl: game,
+    theme: "btn-back-yellow",
+    name: "Tic-Tac-Toe",
+    description:
+      "Developed a fun game using react with TIME TRAVEL functionality to go back in time and change the move to win :)",
+    link: "https://tic-tac-toe-164.vercel.app/",
+  },
+
   {
     iconUrl: attandance,
     theme: "btn-back-red",

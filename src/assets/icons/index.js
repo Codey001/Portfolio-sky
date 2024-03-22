@@ -51,6 +51,9 @@ import arduino from "./arduino.png";
 import linux from "./linux.png";
 
 import lfr from "./lfr.png";
+import chat from "./chat.png";
+import game from "./game.png";
+import to_do from "./to_do_list.png";
 
 export {
   motion,
@@ -98,4 +101,7 @@ export {
   build,
   micromouse,
   attandance,
+  chat,
+  game,
+  to_do,
 };
