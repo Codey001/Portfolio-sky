@@ -221,7 +221,7 @@ export const projects = [
     name: "To Do App",
     description:
       "Build good old to do app with React and Mongo DB integration. Implemented create update and delete functionality.",
-    link: "https://tic-tac-toe-164.vercel.app/",
+    link: "https://gleeful-toffee-285dbb.netlify.app/",
   },
 
   {
